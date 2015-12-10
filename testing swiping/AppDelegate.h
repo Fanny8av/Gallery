@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  testing swiping
 //
-//  Created by Richard Kim on 5/21/14.
-//  Copyright (c) 2014 Richard Kim. All rights reserved.
+//
+//  Copyright (c) 2015 Fanny Ochoa. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

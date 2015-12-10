@@ -103,7 +103,6 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     }
 }
 
-#warning include own action here!
 //%%% action called when the card goes to the left.
 // This should be customized with your own action
 -(void)cardSwipedLeft:(UIView *)card;
@@ -119,8 +118,6 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
         [self insertSubview:[loadedCards objectAtIndex:(MAX_BUFFER_SIZE-1)] belowSubview:[loadedCards objectAtIndex:(MAX_BUFFER_SIZE-2)]];
     }
 }
-
-#warning include own action here!
 //%%% action called when the card goes to the right.
 // This should be customized with your own action
 -(void)cardSwipedRight:(UIView *)card
